@@ -28,6 +28,7 @@ GEMINI_API_KEY="your_api_key"
 
 
 **Favorites Screen**
+
 Creatures and Stories
 
 <img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/fa30c2d6-4adf-45a6-a62c-ae6c71f534ee" />
