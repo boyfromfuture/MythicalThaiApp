@@ -15,23 +15,23 @@ GEMINI_API_KEY="your_api_key"
 
 **Intro Screen and Home Screen**
 
-<img width="401" height="893" alt="Screenshot 2025-10-08 221033" src="https://github.com/user-attachments/assets/8af18726-3e22-4c31-8e0f-f60bc388f3af" />
-<img width="401" height="893" alt="image" src="https://github.com/user-attachments/assets/2231b89b-3411-4108-93e6-5438d9955dcc" />
+<img width="200" height="400" alt="Screenshot 2025-10-08 221033" src="https://github.com/user-attachments/assets/8af18726-3e22-4c31-8e0f-f60bc388f3af" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/2231b89b-3411-4108-93e6-5438d9955dcc" />
 
 
 
 
 **Creature Description Screen and Story Generation**
 
-<img width="400" height="894" alt="image" src="https://github.com/user-attachments/assets/caf80ab3-3e5a-4c30-ad43-61f1ea9da03b" />
-<img width="402" height="887" alt="image" src="https://github.com/user-attachments/assets/64f87be1-b39a-43ff-a07e-257c4a85a5fc" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/caf80ab3-3e5a-4c30-ad43-61f1ea9da03b" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/64f87be1-b39a-43ff-a07e-257c4a85a5fc" />
 
 
 **Favorites Screen**
 Creatures and Stories
 
-<img width="402" height="896" alt="image" src="https://github.com/user-attachments/assets/fa30c2d6-4adf-45a6-a62c-ae6c71f534ee" />
-<img width="401" height="897" alt="image" src="https://github.com/user-attachments/assets/eb2d44c3-8dcb-45af-ae8d-9fc650f52399" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/fa30c2d6-4adf-45a6-a62c-ae6c71f534ee" />
+<img width="200" height="400" alt="image" src="https://github.com/user-attachments/assets/eb2d44c3-8dcb-45af-ae8d-9fc650f52399" />
 
 ---
 
