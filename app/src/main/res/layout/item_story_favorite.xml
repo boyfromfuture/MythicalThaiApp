@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/coal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Delete Button -->
+        <ImageButton
+            android:id="@+id/btnDeleteStory"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_close"
+            android:contentDescription="Delete Story"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+        <!-- Creature Name -->
+        <TextView
+            android:id="@+id/tvStoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creature Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/gold"
+            android:fontFamily="serif"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@id/btnDeleteStory"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"/>
+
+        <!-- Story Content -->
+        <TextView
+            android:id="@+id/tvStoryContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generated story text goes here..."
+            android:textSize="15sp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/text_light"
+            android:fontFamily="sans-serif-light"
+            android:layout_below="@id/tvStoryTitle"
+            android:layout_marginTop="8dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

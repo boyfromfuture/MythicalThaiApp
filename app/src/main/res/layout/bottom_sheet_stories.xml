@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvSheetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI Story"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/gold"
+        android:paddingBottom="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/tvStories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(story text)"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="@color/text_light" />
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:paddingTop="12dp">
+
+        <Button
+            android:id="@+id/btnSaveStoryFromSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Story"
+            android:background="@drawable/bg_button_gold"
+            android:textColor="@color/coal"/>
+
+        <View android:layout_width="12dp" android:layout_height="1dp"/>
+
+        <Button
+            android:id="@+id/btnCloseSheet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:background="@drawable/bg_button_gold"
+            android:textColor="@color/coal"/>
+    </LinearLayout>
+</LinearLayout>
