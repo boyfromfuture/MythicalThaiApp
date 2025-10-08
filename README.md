@@ -3,6 +3,14 @@
 ThaiTales is an Android mobile application that introduces users to fascinating **Thai Mythical Creatures** through interactive descriptions and AI-generated short stories.  
 Built using **Kotlin**, **Supabase**, and **Gemini AI**, the app provides a seamless blend of culture, storytelling, and technology.
 ---
+
+# Note
+Edit and add your AI Model's API key in your **local.properties**. In our case, we used Gemini 2.5 Flash API.
+
+GEMINI_API_KEY="your_api_key"
+
+---
+
 # Screens Layout
 
 **Intro Screen and Home Screen**
@@ -49,10 +57,7 @@ Creatures and Stories
 | Architecture | MVVM pattern (ViewModel, Repository) |
 
 ---
-**Note**
-Edit and add your AI Model's API key in your local.properties. In our case, we used Gemini 2.5 Flash API.
 
----
 ## ⚙️ How It Works
 
 1. The app **fetches creature data** (names, descriptions, and images) from **Supabase**.
